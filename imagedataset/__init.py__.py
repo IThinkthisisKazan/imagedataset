@@ -1,2 +1,2 @@
-from imagedataset.core import find_and_separate
+from imagedataset.core import *
 
