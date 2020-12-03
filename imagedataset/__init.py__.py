@@ -1,3 +1,2 @@
-from imagedataset.core import find_element_in_browser
+from imagedataset.core import find_and_separate
 
-find_element_in_browser("собаки", 200, "C:\\Users\\Red_Fox\\Pictures")
