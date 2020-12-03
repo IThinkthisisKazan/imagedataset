@@ -1,26 +1,3 @@
-import setuptools
-
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
-setuptools.setup(
-    name="chrome-dataset",
-    version="0.0.2",
-    author="Ayar Tokoev",
-    author_email="ayartokoev3@gmail.com",
-    description="Package for download image from chrome",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/IThinkthisisKazan/Python/tree/main/project_kurs/version_3",
-    packages=setuptools.find_packages(),
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
-    python_requires='>=3.6',
-)
-
 from distutils.core import setup
 setup(
   name = 'imagedataset',         # How you named your package folder (MyLib)
@@ -31,10 +8,9 @@ setup(
   author = 'Ayar Tokoev',                   # Type in your name
   author_email = 'ayartokoev3@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/IThinkthisisKazan/imagedataset',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
-  keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   # Keywords that define your package best
+  download_url = 'https://github.com/IThinkthisisKazan/imagedataset/archive/v_01.tar.gz',    # I explain this later on
+  keywords = ['IMAGE', 'DATASET', 'IMAGE DATASET'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
-          'urllib',
           'selenium',
       ],
   classifiers=[
