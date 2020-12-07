@@ -22,7 +22,7 @@ def img_save(sub, theme, counts, path_to_save):  # Функция сохране
             try:
                 if src != None:
                     src = str(src)
-                    print(count, "/", counts)
+                    # print(count, "/", counts)
                     global name_count
                     name_count += 1
                     count += 1
@@ -30,7 +30,8 @@ def img_save(sub, theme, counts, path_to_save):  # Функция сохране
                 else:
                     raise TypeError
             except TypeError:
-                print('fail')
+                pass
+                # print('fail')
         else:
             break
 
@@ -59,13 +60,15 @@ def separation(path, one, two):  # Функция деленя по пропор
             if os.path.isfile(name):
                 shutil.copy(name, destination_one)
             else:
-                print('file does not exist', name)
+                pass
+                # print('file does not exist', name)
         if file in list_two:
             name = os.path.join(path_separation, file)
             if os.path.isfile(name):
                 shutil.copy(name, destination_two)
             else:
-                print('file does not exist', name)
+                pass
+                # print('file does not exist', name)
 
 
 def find_element_in_browser(theme, counts, path_to_save):  # Функция поиска в браузере картинок
@@ -77,7 +80,10 @@ def find_element_in_browser(theme, counts, path_to_save):  # Функция по
         search_box_dogs = driver.find_element_by_css_selector('input.gLFyf')  # нашли поисковую строку
         search_box_dogs.send_keys(theme)  # вводим поисковый запрос
         search_box_dogs.send_keys(Keys.ENTER)
-        driver.find_element_by_partial_link_text('Картинки').click()
+        try:
+            driver.find_element_by_partial_link_text('Картинки').click()
+        except FileNotFoundError:
+            driver.find_element_by_partial_link_text('Images').click()
         # код предназначен для прокрутки страницы вниз для загрузки всех изображений
         value = 0
         count = 16  # равен 300 картинкам
@@ -125,7 +131,8 @@ def find_and_separate(theme, quantity, path, separation_one, separation_two):  #
             if os.path.isfile(name):
                 shutil.copy(name, destination_one)
             else:
-                print("Error file")
+                pass
+                # print("Error file")
     # Выполняем деление по пропорциям
     separation(destination_one, separation_one, separation_two)
 
