@@ -10,7 +10,7 @@ name_count = 0
 
 
 def img_save(sub, theme, counts, path_to_save):  # Функция сохранения изображения по src
-    path = r"C:\Users\Red_Fox\Pictures"
+    path = path_to_save
     try:
         os.mkdir(path + '/' + theme)
     except FileExistsError:
@@ -36,7 +36,7 @@ def img_save(sub, theme, counts, path_to_save):  # Функция сохране
             break
 
 
-def separation(path, one, two):  # Функция деленя по пропорциям
+def separation(path, one, two):  # Функция деления по пропорциям
     path_separation = path
     images_count = os.listdir(path_separation)
     n_files = len(images_count)
