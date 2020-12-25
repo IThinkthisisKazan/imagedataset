@@ -8,7 +8,7 @@
 ![qxZVmKWq_2g](https://user-images.githubusercontent.com/56004530/101323835-55b4a600-387a-11eb-88c7-78e51804db35.jpg)
 
 This code is for creating datasets.
-Which he will receive by request in the Chroome browser and then save them in the specified folder
+Which will receive by request in the Chroome browser and then save them in the specified folder
 
 ![screenshot](https://user-images.githubusercontent.com/56004530/101624363-e8944280-3a2a-11eb-9d56-f352b0336ca9.jpg)
 
