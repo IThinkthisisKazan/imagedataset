@@ -3,16 +3,16 @@
 
 ## Description
 
-**Example of how the package works and how attributes are filled in**
+**Example of how the package works**
 
 ![qxZVmKWq_2g](https://user-images.githubusercontent.com/56004530/101323835-55b4a600-387a-11eb-88c7-78e51804db35.jpg)
 
-This code is for creating datasets.
-Which will receive by request in the Chroome browser and then save them in the specified folder
+The package is designed to create a set of images.
+Images are downloaded from the Chrome browser and saved in the folder you specify
 
 ![screenshot](https://user-images.githubusercontent.com/56004530/101624363-e8944280-3a2a-11eb-9d56-f352b0336ca9.jpg)
 
-At the end of the module, you get folders that contain images on the subject of the request. And a separate folder that contains a common set of images and two folders are folders that contain the percentage of images
+After completing the package, you get three folders for testing, training, and validation
 
 ## How to use package
 
@@ -26,13 +26,13 @@ At the end of the module, you get folders that contain images on the subject of 
 
 ## About the project
 
-The entire program code works together with the Google driver and the selenium and urllib libraries.The package is intended for downloading a set of images from Google and using them in the future to train neural networks to recognize objects.
+All program code works together with the Google driver, selenium and urllib libraries.The package is designed to download a set of images from Google and use them in the future for training neural networks .
 
 ## Example of filling in attributes
 
-- **```find_and_separate(theme, quantity, path, separate one, separate two)```** - main module
+- **```imagedataset_v1.core.find_and_separate("red car,blue car", 10, "C:\\Users\\Red_Fox\\Pictures")```** - main module
 - **theme** these are the data sets you want to get Ex. ```find_and_separate("cat dog",...) ```
 - **quantity** this is the number of images on a single topic that you want to get Ex. ```find_and_separate("cats dogs", 200,...)```
 - **path** this is the path to the place where you want to save the image sets Ex. ```find_and_separate("cats dogs", 200, "C:\\Users\\user_name\\Pictures")```
-- **separate one** and **separate two** this is the ratio by which you want to divide the total set of images.
-The amount must not exceed or be less than 100 Ex.```find_and_separate("cats dogs", 200, "C:\\Users\\user_name\\Pictures", 40, 60)```
+
+
