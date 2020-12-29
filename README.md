@@ -31,8 +31,8 @@ All program code works together with the Google driver, selenium and urllib libr
 ## Example of filling in attributes
 
 - **```imagedataset_v1.core.find_and_separate("red car,blue car", 10, "C:\\Users\\Red_Fox\\Pictures")```** - main module
-- **theme** these are the data sets you want to get Ex. ```find_and_separate("cat dog",...) ```
-- **quantity** this is the number of images on a single topic that you want to get Ex. ```find_and_separate("cats dogs", 200,...)```
-- **path** this is the path to the place where you want to save the image sets Ex. ```find_and_separate("cats dogs", 200, "C:\\Users\\user_name\\Pictures")```
+- **theme** Enter keywords to create a set of images Ex. ```find_and_separate("cat,dog",...) ```
+- **quantity** This is the number of images per topic that you want to getEx. ```find_and_separate("cats,dogs", 200,...)```
+- **path** This is the path to where you want to save the image sets Ex. ```find_and_separate("cats,dogs", 200, "C:\\Users\\user_name\\Pictures")```
 
 
