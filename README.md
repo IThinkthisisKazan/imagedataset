@@ -5,14 +5,30 @@
 
 **Example of how the package works**
 
-![qxZVmKWq_2g](https://user-images.githubusercontent.com/56004530/101323835-55b4a600-387a-11eb-88c7-78e51804db35.jpg)
+![Снимок экрана (1)](https://user-images.githubusercontent.com/56004530/104139822-043e9000-53bf-11eb-867a-125cbee6dd3e.png)
 
-The package is designed to create a set of images.
-Images are downloaded from the Chrome browser and saved in the folder you specify
+## The package provides three sets of datasets for working with neural networks:
 
-![screenshot](https://user-images.githubusercontent.com/56004530/101624363-e8944280-3a2a-11eb-9d56-f352b0336ca9.jpg)
+**We will have a data/train/ directory for the training dataset, data/test/ for the holdout test dataset and a data/validation/**
+
+![1git](https://user-images.githubusercontent.com/56004530/104139462-bf195e80-53bc-11eb-8667-56d7592c8c4e.jpg)
+
+**Images of red cars and blue cars would then be placed in the appropriate class directory.**
+
+![2git](https://user-images.githubusercontent.com/56004530/104139536-32bb6b80-53bd-11eb-87ac-95a47d927487.jpg)
 
 After completing the package, you get three folders for testing, training, and validation
+
+data/ </p>
+data/train/</p>
+data/train/red/</p>
+data/train/blue/</p>
+data/test/</p>
+data/test/red/</p>
+data/test/blue/</p>
+data/validation/</p>
+data/validation/red/</p>
+data/validation/blue/</p>
 
 ## How to use package
 
