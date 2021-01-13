@@ -1,8 +1,8 @@
 <h1 align="center">Automated data collection system for convolutional neural networks</h1>
 <h2 align="center">
 
-![PyPI](https://img.shields.io/pypi/pyversions/Django)
 
+![PyPI](https://img.shields.io/pypi/pyversions/Django)
 ## Description
 
 **Example of how the package works**
