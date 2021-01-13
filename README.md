@@ -41,11 +41,11 @@ data/validation/blue/</p>
 All program code works together with the Google driver, selenium and urllib libraries.The package is designed to download a set of images from Google and use them in the future for training neural networks .
 
 **Technologies used:**
-* Python
-* Selenium
-* Requests
-* ChromeDriver
-* Shutil
+* [Python](https://www.python.org/)
+* [Selenium](https://www.selenium.dev/about/)
+* [Requests](https://requests.readthedocs.io/en/master/)
+* [ChromeDriver](https://chromedriver.chromium.org/)
+* [Shutil](https://github.com/enthought/Python-2.7.3/blob/master/Lib/shutil.py)
 
 ## Example of filling in attributes
 
