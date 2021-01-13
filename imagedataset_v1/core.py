@@ -122,10 +122,6 @@ def find_element_in_browser(theme, counts, path_to_save):  # Функция по
 
 
 def find_and_separate(theme, quantity, path):  # Главная функция
-    try:
-        os.mkdir(path + "/" + "SeparateFolder")
-    except FileExistsError:
-        pass
     # Делаем запрос
     themes = theme.split(',')
     # destination_one = path + "/" + "SeparateFolder"
@@ -136,14 +132,6 @@ def find_and_separate(theme, quantity, path):  # Главная функция
             # Сохраняем все элементы поиска в одну папку
             images_count = os.listdir(path)
 
-            '''
-            for file in images_count:
-                name = os.path.join(path + '/' + element, file)
-                if os.path.isfile(name):
-                    shutil.copy(name, destination_one)
-                else:
-                    print("Error file")
-                '''
     # Выполняем деление по пропорциям
     #separation(destination_one, separation_one, separation_two)
 
