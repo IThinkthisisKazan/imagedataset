@@ -1,4 +1,4 @@
-<h1 align="center">IMAGEDATASET</h1>
+<h1 align="center">Automated data collection system for convolutional neural networks</h1>
 <h2 align="center">
 
 ## Description
@@ -36,13 +36,16 @@ data/validation/blue/</p>
 - **Import** package - ```import imagedataset.core```
 - **Get download images** - ```find_and_separate("computer book horse", 100, "C:\\Users\\user\\Pictures", 40, 50) ```
 
-## Tools and enviroment
-- **Windows 8, Windows 10**
-- **Chroome browser version '''87.0.4280.88'''**
-
 ## About the project
 
 All program code works together with the Google driver, selenium and urllib libraries.The package is designed to download a set of images from Google and use them in the future for training neural networks .
+
+**Technologies used:**
+* Python
+* Selenium
+* Requests
+* ChromeDriver
+* Shutil
 
 ## Example of filling in attributes
 
