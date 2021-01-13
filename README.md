@@ -1,7 +1,6 @@
 <h1 align="center">Automated data collection system for convolutional neural networks</h1>
 <h2 align="center">
 
-
 ## Description
 
 **Example of how the package works**
