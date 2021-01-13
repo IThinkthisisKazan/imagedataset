@@ -2,7 +2,6 @@
 <h2 align="center">
 
 
-![PyPI](https://img.shields.io/pypi/pyversions/Django)
 ## Description
 
 **Example of how the package works**
